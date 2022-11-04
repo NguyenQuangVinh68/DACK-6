@@ -1,0 +1,169 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "NIKE STREET GATO",
+            "type": "giày futsal",
+            "code": "DNA123115",
+            "price": "2.550.000",
+            "size": "40,42",
+            "stock": 12
+        },
+        {
+            "id": 2,
+            "name": "NIKE TIEMPO REACT LEGEND 9 PRO",
+            "type": "giày cỏ nhân tạo",
+            "code": "DNA12121115",
+            "price": "2.910.000",
+            "size": "39,40",
+            "stock": 12
+        },
+        {
+            "id": 3,
+            "name": "PUMA FUTURE Z 1.4 CREATE PRO CAGE",
+            "type": "giày cỏ nhân tạo",
+            "code": "DNAALK115151",
+            "price": "2.690.000",
+            "size": "40,41",
+            "stock": 12
+        },
+        {
+            "id": 4,
+            "name": "ADIDAS X SPEEDPORTAL.1 TF",
+            "type": "giày cỏ nhân tạo",
+            "code": "DNAA1235",
+            "price": "2.350.000",
+            "size": "39,41",
+            "stock": 12
+        },
+        {
+            "id": 5,
+            "name": "NIKE ZOOM MERCURIAL",
+            "type": "giày cỏ nhân tạo",
+            "code": "FPPW11517",
+            "price": "2.000.000",
+            "size": "40,41",
+            "stock": 0
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "firstName": "Vinh",
+            "lastName": "Quang",
+            "email": "vinh123@gmail.com",
+            "password": "12345"
+        },
+        {
+            "id": 2,
+            "firstName": "Vinh",
+            "lastName": "Quang",
+            "email": "vinh12@gmail.com",
+            "phone": "0817310298",
+            "address": "Long An",
+            "password": "1234568"
+        },
+        {
+            "id": 3,
+            "firstName": "Vinh",
+            "lastName": "Quang",
+            "email": "vinh12@gmail.com",
+            "password": "123456"
+        },
+        {
+            "id": 4,
+            "firstName": "Vinh",
+            "lastName": "Quang",
+            "email": "vinh12345@gmail.com",
+            "password": "12345689",
+            "phone": "0817310298",
+            "address": "Kiên Giang"
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "username": "QuangVinh",
+            "email": "vinh12345@gmail.com",
+            "phone": "0817310298",
+            "address": "Kiên Giang",
+            "productOrders": [
+                {
+                    "id": 2,
+                    "name": "NIKE TIEMPO REACT LEGEND 9 PRO",
+                    "type": "giày cỏ nhân tạo",
+                    "code": "DNA12121115",
+                    "price": "2.910.000",
+                    "size": "39,40",
+                    "quantity": 1
+                },
+                {
+                    "id": 3,
+                    "name": "PUMA FUTURE Z 1.4 CREATE PRO CAGE",
+                    "type": "giày cỏ nhân tạo",
+                    "code": "DNAALK115151",
+                    "price": "2.690.000",
+                    "size": "40,41",
+                    "quantity": 1
+                }
+            ],
+            "dateOrder": "2022-11-04T09:03:18.450Z"
+        },
+        {
+            "id": 2,
+            "username": "QuangVinh",
+            "email": "vinh12345@gmail.com",
+            "phone": "0817310298",
+            "address": "Kiên Giang",
+            "productOrders": [
+                {
+                    "id": 2,
+                    "name": "NIKE TIEMPO REACT LEGEND 9 PRO",
+                    "type": "giày cỏ nhân tạo",
+                    "code": "DNA12121115",
+                    "price": "2.910.000",
+                    "size": "39,40",
+                    "quantity": 1
+                },
+                {
+                    "id": 4,
+                    "name": "ADIDAS X SPEEDPORTAL.1 TF",
+                    "type": "giày cỏ nhân tạo",
+                    "code": "DNAA1235",
+                    "price": "2.350.000",
+                    "size": "39,41",
+                    "quantity": 1
+                }
+            ],
+            "dateOrder": "2022-11-04T09:11:14.612Z"
+        },
+        {
+            "id": 3,
+            "username": "Vinh Nguyễn",
+            "email": "anhday123123@gmail.com",
+            "phone": "0817310298",
+            "address": "Kiên Giang",
+            "productOrders": [
+                {
+                    "id": 1,
+                    "name": "NIKE STREET GATO",
+                    "type": "giày futsal",
+                    "code": "DNA123115",
+                    "price": "2.550.000",
+                    "size": "40,42",
+                    "quantity": 1
+                },
+                {
+                    "id": 2,
+                    "name": "NIKE TIEMPO REACT LEGEND 9 PRO",
+                    "type": "giày cỏ nhân tạo",
+                    "code": "DNA12121115",
+                    "price": "2.910.000",
+                    "size": "39,40",
+                    "quantity": 1
+                }
+            ],
+            "date": "2022-11-04T10:51:32.660Z"
+        }
+    ]
+}
