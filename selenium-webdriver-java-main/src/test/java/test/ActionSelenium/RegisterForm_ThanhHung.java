@@ -43,7 +43,7 @@ public class RegisterForm_ThanhHung {
             lastName.sendKeys("Binh");
 
             WebElement email = driver.findElement(By.cssSelector("#email"));
-            email.sendKeys("nguyenquangvinhnn031@gmail.com");
+            email.sendKeys("baocong001001@gmail.com");
 
             WebElement password = driver.findElement(By.cssSelector("#password"));
             password.sendKeys("123456");

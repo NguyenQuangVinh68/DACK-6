@@ -32,7 +32,7 @@ public class Order {
 
 //            5 điền thông tin khách hàng mua hàng
             String fullname = "Nguyễn Quang Vịnh";
-            String email = "vinh12@gmail.com";
+            String email = "truongvoky00123@gmail.com";
             String phone = "08173210298";
             String address = "Trường Chinh, Hồ Chí Minh";
             driver.findElement(By.cssSelector("#billing_address_full_name")).sendKeys(fullname);
